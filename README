@@ -1,0 +1,65 @@
+python-pymetar
+-------------------------------------------
+Python library for parsing NOAA METAR data.
+
+Runtime requirements:
+  python-2.5.1-1
+
+Canonical homepage:
+  http://www.schwarzvogel.de/software-pymetar.shtml
+
+Canonical download:
+  http://www.schwarzvogel.de/pkgs/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-pymetar-0.12-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-pymetar-0.12-X.cygport all
+
+This will create:
+  /usr/src/python-pymetar-0.12-X-src.tar.bz2
+  /usr/src/python-pymetar-0.12-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/weather.py
+  /usr/lib/python2.5/site-packages/pymetar-0.12-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/pymetar.py
+  /usr/lib/python2.5/site-packages/pymetar.pyc
+  /usr/lib/python2.5/site-packages/pymetar.pyo
+  /usr/share/doc/Cygwin/python-pymetar-0.12.README
+  /usr/share/doc/python-pymetar-0.12/COPYING
+  /usr/share/doc/python-pymetar-0.12/README
+  /usr/share/doc/python-pymetar-0.12/THANKS
+  /usr/share/doc/python-pymetar-0.12/TODO
+  /usr/share/doc/python-pymetar-0.12/example.py
+  /usr/share/doc/python-pymetar-0.12/librarydoc.txt
+
+------------------
+
+Port Notes:
+
+----- version 0.12-3 -----
+Rebuilt for python-2.5.
+
+----- version 0.12-2 -----
+Rebuilt for python-2.4.
+
+----- version 0.12-1 -----
+New upstream release.
+
+----- version 0.10-1 -----
+New upstream release.
+
+----- version 0.8-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
