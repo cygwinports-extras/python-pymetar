@@ -3,10 +3,11 @@ inherit distutils
 DESCRIPTION="Python METAR weather station info module"
 HOMEPAGE="http://www.schwarzvogel.de/software-pymetar.shtml"
 SRC_URI="http://www.schwarzvogel.de/pkgs/${ORIG_PN}-${PV}.tar.gz"
+PATCH_URI="0.14-docs-install.patch"
 
 src_install() {
 	cd ${B}
 	distutils_install
 
-	mv ${D}/usr/share/doc/{${ORIG_PN}-${PV},${P}}
+	mv ${D}/usr/share/doc/${ORIG_PN}-${PV} ${D}/usr/share/doc/${P}
 }
