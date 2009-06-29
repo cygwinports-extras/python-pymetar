@@ -1,4 +1,4 @@
 category: Python Net
-requires: cygwin python
+requires: python
 sdesc: "Python module for parsing METAR reports"
 ldesc: "Python module for downloading and parsing NOAA METAR reports."
